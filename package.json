@@ -1,0 +1,14 @@
+{
+  "name": "alpsdrive",
+  "version": "1.0.0",
+  "description": "exo 5",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
