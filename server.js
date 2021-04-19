@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 
-app.use((req, res) => {
-   res.json({ message: 'Votre requêtes a bien été reçue !' }); 
-});
+app.use(express.static('frontend'));
 
 module.exports = app;

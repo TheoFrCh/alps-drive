@@ -4,13 +4,21 @@
   "description": "exo 5",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon main.js"
-
+    "dev": "nodemon main.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoFrCh/alps-drive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheoFrCh/alps-drive/issues"
+  },
+  "homepage": "https://github.com/TheoFrCh/alps-drive#readme"
 }
